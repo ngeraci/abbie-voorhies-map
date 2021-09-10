@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Abbie Voorhies DeVerges | Important Locations</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossorigin=""/>
+            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+            <meta charset="utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+            #map {
+            height:100vh;
+            }
+            </style>
+        </head>
+        <body>
+            <div id="map"></div>
+            <script>
+            var map = L.map('map',{
+            center: [39.8282, -98.5696],
+            zoom: 5,
+            });
+            L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+            attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+            }).addTo(map);
+            fetch('places.json').then(response => {
+            return response.json();
+            }).then(data => {
+            // Work with JSON data here
+            for (index = 0; index < data.length; index++) {
+            var marker = L.marker(data[index]["coordinates"]).addTo(map);
+            marker.bindPopup(`<h2>${data[index]["placename"]}</h2><p>${data[index]["note"]}</p>`);
+            }
+            }).catch(err => {
+            // Do something for an error here
+            });
+            </script>
+        </body>
+    </html>

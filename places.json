@@ -1,0 +1,83 @@
+[
+    {
+        "placename": "Moreauville",
+        "note": "Voorhies was born in Moreauville, Louisiana on August 20, 1915.",
+        "coordinates":
+        [
+            31.03463,
+            -91.97568
+        ]
+    },
+    {
+        "placename": "Alexandria",
+        "note": "Voorhies grew up in Alexandria.",
+        "coordinates":
+        [
+            31.2928,
+            -92.4592
+        ]
+    },
+    {
+        "placename": "Kansas City General Hospital",
+        "note": "Voorhies studied nursing at Kansas City General Hospital Nursing School.",
+        "coordinates":
+        [
+            39.0867310148131,
+            -94.5761604977163
+        ]
+    },
+    {
+        "placename": "Charity Hospital",
+        "note": "After nursing school, Voorhies' first job as a nurse was at Charity Hospital in New Orleans, a public hospital founded in 1736. She experienced pay discrimination here, which motivated her to leave to join the Army Nurse Corps.",
+        "coordinates":
+        [
+            29.9554,
+            -90.078
+        ]
+    },
+    {
+        "placename": "Camp Livingston",
+        "note": "In her first assignment as a member of the Army Nurse Corps, Voorhies served as second lieutenant at Camp Livingston, about 12 miles north of where she was raised in Alexandria.",
+        "coordinates":
+        [
+            31.4442,
+            -92.3622
+        ]
+    },
+    {
+        "placename": "Tuskegee Army Air Field",
+        "note": "Voorhies spent most of her military career here, as part of the 99th Fighter Squadron. She served as a night nurse on wards three and four, and met her husband First Lieutentant Mac Ross",
+        "coordinates":
+        [
+            32.49194,
+            -85.77556
+        ]
+    },
+    {
+        "placename": "Lockbourne Army Air Base",
+        "note": "When Tuskegee Army Airfield closed in 1946, Lieutentant Voorhies was transferred here and promoted to assistant chief nurse. Before she separated from the service on June 30, 1947, she achieved the rank of captain.",
+        "coordinates":
+        [
+            39.8136,
+            -82.9467
+        ]
+    },
+    {
+        "placename": "Los Angeles",
+        "note": "After her military service, Captain Voorhies settled in Los Angeles. She lived in the area until her death in 2020.",
+        "coordinates":
+        [
+            34.05223,
+            -118.24368
+        ]
+    },
+    {
+        "placename": "Holy Cross Cemetery",
+        "note": "Captain Voorhies is buried at Holy Cross Cemetery, a Catholic cemetery at 5835 West Slauson Avenue in Culver City, California",
+        "coordinates":
+        [
+            33.991649,
+            -118.387096
+        ]
+    }
+]
